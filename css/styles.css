@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  /*margin-top: 50px;
+  margin-bottom: 0px;*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  color: #66BFBF;
+  /*line-height: 2;*/
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+
+}
+.first-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+hr{
+  color: #EAF6F6;
+  width: 20%;
+}
+#projects{
+  background-color: #CDF0EA;
+  margin: 5% 0%;
+  padding: 5% 9%;
+}
+#features{
+  background-color: #CDF0EA;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.first-container{
+  background-color: #E8F6EF;
+  position: relative;   /*become relative for top cloud and bottom cloud and all other its children elements*/
+  padding-top: 100px;
+}
+.bottom-container{
+  background-color:#79B4B7;
+  margin-top: 50px;
+  padding: 50px;
+
+}
+.skill-row{
+width: 50%;
+margin: 100px auto; /*ek taraf ko bhag jaari thi isliye kra yahan ye*/
+text-align: left;
+line-height: 2;
+}
+ .bottom-cloud{
+   position: absolute;
+   left: 300px;
+   bottom: 300px;
+ }
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.download{
+  float: left;
+  margin-right: 20px;
+
+}
+.web{
+  float: right;
+  margin-left: 40px;
+}
+.bottom_para{
+  color: #EAF6F6;
+  font-size: 10px;
+}
+/*.python{
+  clear: left;
+}
+.web_para{
+  clear: right;
+}*/
+
+.footer-link{
+  padding:20px;
+  color: black;
+  font-size: 1rem;
+}
+.btn {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 18px;
+   background-color: #11999E;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.skills{
+  padding-top: 5%;
+}
+.project-image{
+  border-radius: 10%
+}
+.hobby_heading{
+  padding-top: 8%;
+  font-weight: bold;
+}
+.skills-heading{
+  font-weight: bold;
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
+.profile{
+  padding-top: 3% ;
+  padding-bottom: 3%;
+}
